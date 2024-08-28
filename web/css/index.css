@@ -1,0 +1,273 @@
+
+/* 
+    Created on : Aug 6, 2020, 5:07:22 PM
+    Author     : u274612
+*/
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+.header{
+        width: 100%;
+	height: 60px;
+	
+	color: #FFFFFF;
+        position:relative;
+	/*background: #1f1f1f;*/
+       background: transparent ;
+         display: table;
+         clear: both;
+         
+	
+}
+body {
+    font-family: Verdana, Tahoma, Arial, "Trebuchet MS", Sans-Serif, Georgia, Courier, "Times New Roman", Serif;
+    font-size: 8pt;
+	background: #2c3e50;
+        /*background: url(../images/back1.jpg)left 15% no-repeat;*/
+	/*margin: 0;*/
+       /* padding: 0;*/
+	/*height: 100%;*/
+      /*  position:relative;*/
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {color:black;
+}
+
+.logo {
+    float:left;
+    width: 250px;
+    height: 80px;
+    margin-top: 5px;
+	
+        background: url(../images/wnslogo.png)left 15% no-repeat;
+    /*background: url(../images/logo_login.png) no-repeat;*/
+}
+
+
+.prestatus{
+  float:right;
+  height: 100%;  
+    
+}
+.statusbox{
+    
+    padding: 5px 5px 5px 5px;
+    margin-top:10px;
+    margin-right: 10px;
+   width: 250px;
+    height: 60px;
+    color: #FFFFFF;
+	background: transparent ;
+      -moz-box-shadow: 0 0 10px 5px #000;
+	-webkit-box-shadow: 0 0 10px 5px #0b0b17;
+	box-shadow: 0 0 10px 5px #0b0b17;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+}
+.buttonsbar{
+        padding-top: 80px;
+        width: 100%;
+	height: 40px;
+	background:transparent;
+        display: table;
+        clear: both;   
+}
+.buttonsbarcentered{
+        position: relative;
+        height:100%;
+        width: 1000px;
+	text-align: center;
+        margin: 0 auto;
+        background:#ff6600 ;
+        display: table;
+        clear: both;   
+    
+}
+
+.tdlinks {
+   color: white; 
+   background:black; 
+   font-size: 120%;
+   font-weight: bold;
+   width:20%;
+   -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+}
+.tdlinks:hover {
+    font-weight: bold;
+    color:black;
+   background: #ff6600;
+    
+}
+.tdlinks:active {
+    font-weight: bold;
+    color:black;
+   background: #ff6600;  
+}
+
+input.btn{background:url(../images/acttrigger_bg_1.gif)left 15% ;background-repeat:no-repeat;background-color:black;background-position:0 0;width:70px;height:20px;padding: 2px 0px 4px 0px;font-size:7pt;border:none;cursor:pointer;color:#555!important;}
+input.btn:hover{background:url(../images/acttrigger_bg_1.gif)left 15% ;background-repeat:no-repeat;background-color:#ff6600 ;background-position:0 -20px;width:70px;height:20px;padding: 2px 0px 4px 0px;font-size:7pt;border:none;cursor:pointer;color:black!important;}
+
+
+.wrapper {
+        padding-top: 30px;
+        width: 100%;
+	height:1000px;
+	background:transparent;
+        display: table;
+        clear: both;
+      
+}
+.main {
+    position: relative;
+        height:fit-content;
+        width: fit-content;
+	text-align: center;
+        margin: 0 auto;        /*centered*/
+        display: table;
+        clear: both;
+        color: #FFFFFF; /*culoare tabel centru cu coloane*/
+        background: transparent ; /*culoare margine tabel*/
+        
+	-moz-box-shadow: 0 0 10px 5px #000;
+	-webkit-box-shadow: 0 0 10px 5px #0b0b17;
+	box-shadow: 0 0 10px 5px #0b0b17;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.maintop {
+        width: 100%;
+	height: 60px;
+	
+	color: #FFFFFF;
+	background: black ; /*culoare bara cu filtre*/
+        opacity:0.9;
+        -moz-box-shadow: 0 0 10px 5px #000;
+	-webkit-box-shadow: 0 0 10px 5px #0b0b17;
+	box-shadow: 0 0 10px 5px #0b0b17;
+        
+        
+        
+	-webkit-border-top-right-radius:  5px;
+        -webkit-border-top-left-radius:  5px;
+    -moz-border-top-right-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    border-top-right-radius: 5px;  
+    border-top-left-radius: 5px;
+    
+}
+
+.filtertable{
+    
+     position: relative;
+        height:100%;
+        width: 100%;
+	text-align: center;
+        margin: 0 auto;
+	background:transparent ;
+        display: table;
+        clear: both;   
+    
+}
+.maincenter {
+        display: box;
+        margin-top: 10px;
+        height:fit-content;
+        width:100%;
+	
+    
+}
+.centertable{
+   
+        position: relative;
+        height:fit-content;
+        width: 100%;
+        display: table;
+	text-align: center;
+        background:black ;
+    
+}
+
+.chartdiv{
+    background:whitesmoke ;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height:fit-content;
+        width:fit-content; 
+}
+.input {
+    
+}
+
+
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  margin-top: 10px;
+  width:100%;
+  height:25px;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-top: 9px;
+  background-color: #ff6600;
+  width:100%;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+.dropdown-content a:hover {background-color: #ff6600; color:black;
+-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+   
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+

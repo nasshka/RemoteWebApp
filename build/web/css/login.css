@@ -1,0 +1,138 @@
+
+/* 
+    Created on : Aug 6, 2020, 5:07:22 PM
+    Author     : u274612
+*/
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+.header{
+       width: 100%;
+	height: 140px;
+	margin: 0 auto;
+	color: #FFFFFF;
+	/*background: #1f1f1f;*/
+        background: #607991 ;
+	-moz-box-shadow: 0 0 10px 5px #000;
+	-webkit-box-shadow: 0 0 10px 5px #0b0b17;
+	box-shadow: 0 0 10px 5px #0b0b17;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+body {
+    font-family: Verdana, Tahoma, Arial, "Trebuchet MS", Sans-Serif, Georgia, Courier, "Times New Roman", Serif;
+    font-size: 8pt;
+	/*background: #212121; */
+       /* background: #2c3e50;*/
+      
+}
+
+.wrapper {
+	text-align: left;
+	width: 100%;
+	height: 100%;
+	padding: 16.4% 0px;
+	position: relative;
+}
+
+
+
+
+
+.main {
+	width: 340px;
+	height: 140px;
+	margin: 0 auto;
+	color: #FFFFFF;
+	/*background: #1f1f1f;*/
+        background: transparent;
+	-moz-box-shadow: 0 0 10px 5px #000;
+	-webkit-box-shadow: 0 0 10px 5px #0b0b17;
+	box-shadow: 0 0 10px 5px #0b0b17;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+	overflow:hidden;
+	float:none;
+}
+
+.clearfix {
+	display:block;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff; 
+}
+
+a:hover { color: #E0E0E0; }
+
+input {
+	font-family: tahoma;
+	font-size: 9pt;
+	background: #ffffff;
+	padding: 4px 4px;
+	border: 1px solid #e2e2e2;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+input:focus, input:hover {
+	border: 1px solid #0099FF;
+}
+
+input.btn{background:url(../images/acttrigger_bg_1.gif) ;background-repeat:no-repeat;background-color:#dea059;background-position:0 -20px;width:70px;height:20px;padding: 2px 0px 4px 0px;font-size:7pt;border:none;cursor:pointer;color:#000!important;}
+input.btn:hover{background:url(../images/acttrigger_bg_1.gif) ;background-repeat:no-repeat;background-color:#a85b02;background-position:0 -20px;width:70px;height:20px;padding: 2px 0px 4px 0px;font-size:7pt;border:none;cursor:pointer;color:#fff!important;}
+
+input#username, input#password {
+	padding-left: 20px;
+}
+input#username {
+	background: #ffffff;
+}
+input#password {
+	background: #ffffff;
+}
+
+input {
+    font-family: tahoma;
+    font-size: 9pt;
+    background: #ffffff;
+    padding: 4px 4px;
+    border: 1px solid #e2e2e2;
+    max-width: 280px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
